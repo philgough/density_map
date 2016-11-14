@@ -1,0 +1,45 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 14pt;
+    max-width: 1200px;
+    margin: 0 auto;
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+    border-top: none;
+    border-bottom: none;
+    min-height: 100vh;
+}
+
+shape-line {
+	stroke: black;
+}
+
+svg {
+	border: 1px solid black;
+	margin: 10px;
+}
+
+
+#date-feedback {
+    position: relative;
+    top: 2%;
+    left: 2%;
+    font-size: 18pt;
+}
+
+h2 {
+	background-color: steelblue;
+	color: white;
+	padding: 10px;
+}
+
+aside.controls {
+	display: flex;
+	justify-content: space-around;
+}
